@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Maximum_and_Minimum {
+public class Maximum_And_Minimum {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter num1: ");

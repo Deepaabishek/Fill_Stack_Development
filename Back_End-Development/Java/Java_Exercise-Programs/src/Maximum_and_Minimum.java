@@ -15,6 +15,8 @@ public class Maximum_and_Minimum {
         
         System.out.println("The maximum value = "+max);
         System.out.println("The minimum value = "+min);
+
+        input.close();
     }    
 
     public static int findmaximum (int num1, int num2, int num3){

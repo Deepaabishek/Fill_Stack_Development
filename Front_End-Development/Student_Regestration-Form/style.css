@@ -17,6 +17,7 @@ body{
     padding-left: 5px;
     border-radius: 20px;
     line-height: 45px;
+    background-image: linear-gradient(to right, #4B8378, #FF9636);
 }
 
 .container label{
@@ -61,7 +62,7 @@ body{
 
 .container-6{
     border: 3px solid black;
-    height: 34vh;
+    height: 22vmax;
     width: 37vw;
     margin: 2vh 0 0 12vw;
     padding: 1vh 1vw 1vh 1vw;
@@ -85,7 +86,8 @@ body{
 }
 
 .container-7 label{
-    width: 15vw;
+    margin-top: 2vh;
+    width: 19vw;
 }
 
 .container-7 li:not(:first-child){

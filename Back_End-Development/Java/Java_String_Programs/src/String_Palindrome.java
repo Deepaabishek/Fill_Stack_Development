@@ -8,14 +8,14 @@ public class String_Palindrome {
 
         String str = input.nextLine().toLowerCase();
 
-        String ans = ispalindrome(str) ? "The given "+str+" is palindrome" : "The given "+str+" is not a palindrome";
+        String ans = isPalindrome(str) ? "The given "+str+" is palindrome" : "The given "+str+" is not a palindrome";
 
         System.out.println(ans);
 
         input.close();
     }
 
-    public static boolean ispalindrome(String str){
+    public static boolean isPalindrome(String str){
         if(str == null || str.length() == 0){
             return true;
         }

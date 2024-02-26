@@ -10,7 +10,7 @@ public class HCF_And_LCM {
 
         int hcf = findHCF(num1, num2);
         System.out.println("Hcf of " + num1 + " and " + num2 + " is: " + hcf);
-        
+
         int lcm = findLCM(num1, num2);
         System.out.println("LCM of " + num1 + " and " + num2 + " is: " + lcm);
         input.close();
@@ -28,6 +28,4 @@ public class HCF_And_LCM {
     public static int findLCM(int num1, int num2) {
         return Math.abs(num1 * num2) / findHCF(num1, num2);
     }
-
 }
-    
